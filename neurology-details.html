@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <span class="plus-icon">+</span> Health<span>Care</span>
+    </div>
+
+    <input type="checkbox" id="nav-check">
+    <label for="nav-check" class="nav-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="finddoc.html">Find a Doctor</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="#">Patient Portal</a></li>
+      <li><a href="appoint.php" class="cta-button">Book Appointment</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="details-header neuro-theme">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to Services</a>
+            <h1>Neurology Department</h1>
+            <p class="subtitle">Advanced treatment for neurological disorders affecting the brain, spinal cord, and nerves.</p>
+        </div>
+    </header>
+
+    <main class="details-content">
+        <div class="container">
+            <section class="detail-section">
+                <h2>Our Specialized Care Units</h2>
+                <div class="detail-grid">
+                    <div class="detail-item">
+                        <h3>Comprehensive Stroke Center</h3>
+                        <p>Time is brain. Our rapid-response stroke team is equipped with the latest neuro-imaging and life-saving intervention techniques available 24/7.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Epilepsy & Seizure Care</h3>
+                        <p>Personalized treatment plans including video-EEG monitoring and advanced medication management to help patients gain control over seizures.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Neuro-Rehabilitation</h3>
+                        <p>A dedicated team of therapists helping patients recover motor and cognitive functions following surgery, injury, or neurological illness.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-block">
+                <h2>Precision Diagnostics</h2>
+                <p>We utilize high-field MRI, CT Angiography, and Electromyography (EMG) to pinpoint the exact cause of neurological symptoms, ensuring a more targeted treatment approach.</p>
+                
+                <ul class="check-list">
+                    <li>Board-Certified Neurosurgeons & Neurologists</li>
+                    <li>Minimally Invasive Spine Procedures</li>
+                    <li>Memory & Cognitive Disorder Clinics</li>
+                </ul>
+            </section>
+
+            <div class="action-footer">
+                <p>Consult with our Neurology experts today.</p>
+                <a href="appointment.html" class="btn-main">Request an Appointment</a>
+            </div>
+        </div>
+    </main>
+
+    <style>
+        /* Specific theme for Neurology page */
+.neuro-theme {
+    background-color: #1a2a3a; /* Deeper navy for Neurology */
+    background-image: linear-gradient(30deg, #1a2a3a 12%, transparent 12.5%, transparent 87%, #1a2a3a 87.5%, #1a2a3a),
+                      linear-gradient(150deg, #1a2a3a 12%, transparent 12.5%, transparent 87%, #1a2a3a 87.5%, #1a2a3a),
+                      linear-gradient(30deg, #1a2a3a 12%, transparent 12.5%, transparent 87%, #1a2a3a 87.5%, #1a2a3a),
+                      linear-gradient(150deg, #1a2a3a 12%, transparent 12.5%, transparent 87%, #1a2a3a 87.5%, #1a2a3a),
+                      linear-gradient(60deg, #2c3e50 25%, transparent 25.5%, transparent 75%, #2c3e50 75%, #2c3e50),
+                      linear-gradient(60deg, #2c3e50 25%, transparent 25.5%, transparent 75%, #2c3e50 75%, #2c3e50);
+    background-size: 80px 140px;
+}
+
+/* Ensure images in the detail grid fit well */
+.detail-item {
+    border-left: 4px solid #1a2a3a;
+    padding-left: 20px;
+    background: #fdfdfd;
+}
+    </style>
+</body>
+</html>
