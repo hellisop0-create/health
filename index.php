@@ -206,16 +206,16 @@
       // Define where each button should go
       switch (buttonText) {
         case 'Meet Doctors':
-          window.location.href = './finddoc.html';
+          window.location.href = 'finddoc.html';
           break;
         case 'View Services':
-          window.location.href = './services.html';
+          window.location.href = 'services.html';
           break;
         case 'Take a Tour':
-          window.location.href = '/tour.html';
+          window.location.href = 'tour.html';
           break;
         case 'Learn More':
-          window.location.href = '/radiology.html';
+          window.location.href = 'radio.html';
           break;
         default:
           console.log('Button clicked, but no path defined.');
