@@ -81,7 +81,7 @@
   </div>
 <div class="card-container">
   <div class="hover-card">
-    <img src="img/doctor.jpg" alt="Landscape">
+    <img src="doctor.jpg" alt="Landscape">
     <div class="card-overlay">
       <h3>Expert Consultations</h3>
       <p>Meet our team of world-class specialists dedicated to your health.</p>
@@ -90,7 +90,7 @@
   </div>
 
   <div class="hover-card">
-    <img src="img/mri machine.jpg" alt="Tech">
+    <img src="mri machine.jpg" alt="Tech">
     <div class="card-overlay">
       <h3>Advanced Diagnostics</h3>
       <p>Utilizing state-of-the-art imaging technology for precise results.</p>
@@ -99,7 +99,7 @@
   </div>
 
   <div class="hover-card">
-    <img src="img/ward.jpg" alt="Car">
+    <img src="ward.jpg" alt="Car">
     <div class="card-overlay">
       <h3>Patient Comfort</h3>
       <p>Experience recovery in our modern, serene, and fully equipped wards.</p>
@@ -108,7 +108,7 @@
   </div>
 
   <div class="hover-card">
-    <img src="img/xray.jpg" alt="City">
+    <img src="xray.jpg" alt="City">
     <div class="card-overlay">
       <h3>Radiology Services</h3>
       <p>Fast and accurate digital imaging to support your treatment plan.</p>
