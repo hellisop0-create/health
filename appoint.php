@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h1>Request Appointment</h1>
         <p>Fill in the details below to schedule your visit.</p>
     </div>
-    <form action="" method="POST">
+    <form action="https://formspree.io/f/mreokezo" method="POST">
         <div class="form-group">
             <label>Full Name</label>
             <input type="text" name="patient_name" placeholder="John Doe" required>
