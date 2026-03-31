@@ -733,16 +733,10 @@ blockquote {
 }
 
 /*radio hero  */
-.rad-hero {
-    /* Replace 'img/xray.jpg' with your actual image path */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/xray.jpg');
-    
-    background-size: cover;      /* Ensures image covers the whole area */
-    background-position: center; /* Centers the doctor/machine in the frame */
-    height: 400px;               /* Adjust height as needed */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;                /* Makes text readable against the dark overlay */
-    text-align: center;
+.hero-img {
+    width: 100%;
+    max-width: 800px; /* Limits the size so it doesn't get too huge */
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
