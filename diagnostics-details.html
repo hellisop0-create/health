@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <span href="#" class="plus-icon">+</span> Health<span>Care</span>
+    </div>
+
+    <input type="checkbox" id="nav-check">
+    <label for="nav-check" class="nav-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="./index.php">Home</a></li>
+      <li><a href="./finddoc.html">Find a Doctor</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="#">Patient Portal</a></li>
+      <li><a href="./appoint.php" class="cta-button">Book Appointment</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="details-header diag-theme">
+        <div class="container">
+            <a href="services.html" class="back-link">← Back to Services</a>
+            <h1>Diagnostics & Laboratory</h1>
+            <p class="subtitle">State-of-the-art imaging and laboratory services for precise and rapid medical results.</p>
+        </div>
+    </header>
+
+    <main class="details-content">
+        <div class="container">
+            
+            <section class="detail-section">
+                <h2>Our Diagnostic Services</h2>
+                <div class="detail-grid">
+                    <div class="detail-item">
+                        <h3>MRI & CT Imaging</h3>
+                        <p>Our facility features high-tesla MRI and multi-slice CT scanners that provide crystal-clear internal images, allowing for earlier detection of health issues.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Digital Radiology</h3>
+                        <p>We use fully digital X-ray technology, which results in lower radiation exposure and instant image availability for your medical team.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Pathology Services</h3>
+                        <p>Our on-site laboratory handles blood work, biopsies, and molecular testing with high accuracy and industry-leading turnaround times.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-block">
+                <h2>The Diagnostic Process</h2>
+                <p>Accuracy begins with advanced technology but ends with expert interpretation. Every result is reviewed by board-certified radiologists and pathologists.</p>
+                
+                <ul class="check-list">
+                    <li>Same-day results for urgent screenings</li>
+                    <li>Secure online patient portal for report access</li>
+                    <li>Referral-ready digital image sharing</li>
+                </ul>
+            </section>
+
+            <div class="action-footer">
+                <p>Have a referral for a scan or lab work?</p>
+                <a href="appoint.php" class="btn-main">Book Your Scan</a>
+            </div>
+        </div>
+    </main>
+<style>
+    /* Specific theme for Diagnostics page */
+.diag-theme {
+    background-color: #008b8b; /* Dark Cyan/Teal */
+    background-image: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 20%),
+                      radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 20%);
+}
+
+.diag-theme h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Enhancing the detail items for a "Lab" look */
+.detail-item {
+    border-top: 5px solid #008b8b;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    padding: 25px;
+    border-radius: 0 0 8px 8px;
+}
+
+.btn-main {
+    background: #008b8b;
+    transition: background 0.3s ease;
+}
+
+.btn-main:hover {
+    background: #006666;
+}
+</style>
+</body>
+</html>
