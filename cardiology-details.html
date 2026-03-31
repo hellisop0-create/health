@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <span class="plus-icon">+</span> Health<span>Care</span>
+    </div>
+
+    <input type="checkbox" id="nav-check">
+    <label for="nav-check" class="nav-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="finddoc.html">Find a Doctor</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="#">Patient Portal</a></li>
+      <li><a href="appoint.php" class="cta-button">Book Appointment</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="details-header">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to Services</a>
+            <h1>Cardiology Department</h1>
+            <p class="subtitle">Comprehensive heart care ranging from preventative screenings to complex interventional surgeries.</p>
+        </div>
+    </header>
+
+    <main class="details-content">
+        <div class="container">
+            <section class="detail-section">
+                <h2>Our Specializations</h2>
+                <div class="detail-grid">
+                    <div class="detail-item">
+                        <h3>Heart Failure Management</h3>
+                        <p>Our multidisciplinary team uses the latest evidence-based therapies to improve quality of life and reduce hospital readmissions for patients with chronic heart conditions.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Electrophysiology</h3>
+                        <p>Specialized care for heart rhythm disorders (arrhythmias). We offer advanced mapping and ablation procedures to restore your heart's natural rhythm.</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Vascular Diagnostics</h3>
+                        <p>Non-invasive testing including ultrasound and Doppler studies to evaluate blood flow and detect blockages in the arteries and veins.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-block">
+                <h2>Why Choose Our Heart Center?</h2>
+                <p>We combine cutting-edge technology with a patient-centered approach. Our cardiologists are board-certified and work alongside specialized nurses and technicians to ensure 24/7 cardiac support.</p>
+                
+                <ul class="check-list">
+                    <li>24/7 Emergency Cardiac Care</li>
+                    <li>State-of-the-art Catheterization Lab</li>
+                    <li>Advanced Cardiac Rehabilitation Programs</li>
+                </ul>
+            </section>
+
+            <div class="action-footer">
+                <p>Need a consultation with a heart specialist?</p>
+                <a href="tel:+123456789" class="btn-main">Call Cardiology Dept</a>
+            </div>
+        </div>
+    </main>
+
+    <style>
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+.details-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.back-link {
+    color: #aad4ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 10px auto 0;
+    opacity: 0.9;
+}
+
+/* Content Sections */
+.details-content {
+    padding: 50px 0;
+}
+
+.detail-section h2, .info-block h2 {
+    color: var(--primary);
+    border-bottom: 2px solid var(--light-gray);
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.detail-grid {
+    display: grid;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.detail-item h3 {
+    margin: 0 0 10px 0;
+    color: #444;
+}
+
+.check-list {
+    list-style: none;
+    padding: 0;
+}
+
+.check-list li::before {
+    content: "✓";
+    color: #28a745;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Footer Action */
+.action-footer {
+    margin-top: 60px;
+    padding: 30px;
+    background: var(--light-gray);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btn-main {
+    display: inline-block;
+    padding: 15px 30px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+    </style>
+</body>
+</html>
