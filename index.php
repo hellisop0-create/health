@@ -215,7 +215,7 @@
           window.location.href = 'tour.html';
           break;
         case 'Learn More':
-          window.location.href = 'radio.html';
+          window.location.href = '/radio.html';
           break;
         default:
           console.log('Button clicked, but no path defined.');
