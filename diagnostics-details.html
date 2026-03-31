@@ -77,34 +77,160 @@
         </div>
     </main>
 <style>
-    /* Specific theme for Diagnostics page */
+/* --- THE DIAGNOSTICS SECTION --- */
+
+/* 1. The Header (Keeping your specific Teal & Gradient) */
 .diag-theme {
-    background-color: #008b8b; /* Dark Cyan/Teal */
-    background-image: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 20%),
-                      radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 20%);
+    padding: 60px 20px;
+    text-align: center;
+    color: black;
 }
 
 .diag-theme h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin: 10px 0;
 }
 
-/* Enhancing the detail items for a "Lab" look */
+.back-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    align-items: left;
+    margin-bottom: 20px;
+}
+
+.back-link:hover{
+    color:blue;
+}
+
+/* 2. The Content Wrapper (Centering everything) */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 3. The Grid (This fixes the layout) */
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 40px 0;
+}
+
+/* 4. The Individual Cards (Keeping your border and shadow) */
 .detail-item {
-    border-top: 5px solid #008b8b;
+    background: #fff;
+    border-top: 5px solid #008b8b; /* Your Teal Border */
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     padding: 25px;
     border-radius: 0 0 8px 8px;
 }
 
+.detail-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* 5. The Info Block and List */
+.info-block {
+    margin: 40px 0;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.check-list {
+    list-style: none;
+    padding: 0;
+}
+
+.check-list li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.check-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #008b8b;
+    font-weight: bold;
+}
+
+/* 6. The Button (Keeping your Teal color) */
+.action-footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
 .btn-main {
+    display: inline-block;
     background: #008b8b;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
     transition: background 0.3s ease;
 }
 
 .btn-main:hover {
-    background: #006666;
+    background: #006666; /* Your hover color */
 }
 </style>
+
+<footer class="main-footer">
+  <div class="footer-container">
+    
+    <div class="footer-col">
+      <h2 class="footer-logo">Health<span>Care</span></h2>
+      <p class="footer-about">
+        Providing world-class healthcare with a focus on compassion, 
+        innovation, and patient-centered excellence since 1998.
+      </p>
+      <div class="emergency-box">
+        <span>Emergency 24/7</span>
+        <a href="tel:911" class="emergency-num">000-123-4567</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="./finddoc.html">Find a Doctor</a></li>
+        <li><a href="./services.html">Our Services</a></li>
+        <li><a href="#">Book Appointment</a></li>
+        <li><a href="#">Patient Portal</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Departments</h3>
+      <ul>
+        <li><a href="./finddoc.html">Cardiology</a></li>
+        <li><a href="./finddoc.html">Neurology</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Visit Us</h3>
+      <p>123 Medical Park Drive<br>Healthcare City, HC 56789</p>
+      <p>Email: info@healthcare.com</p>
+      <div class="social-links">
+        <span>Follow us for health tips</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 HealthCare Hospital. All Rights Reserved. | <a href="#">Privacy Policy</a></p>
+  </div>
+</footer>
 </body>
 </html>
