@@ -33,15 +33,15 @@
 <div id="hero-container" style="position: relative; width: 100%; height: 500px; background: #004a99; overflow: hidden; font-family: sans-serif;">
   
   <div class="my-slide active-slide" style="position: absolute; inset: 0; opacity: 1; transition: opacity 1s; display: flex; align-items: center; justify-content: center;">
-    <img src="img/img1.jpg" alt="Doctor 1" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+    <img src="img1.jpg" alt="Doctor 1" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
   </div>
 
   <div class="my-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s; display: flex; align-items: center; justify-content: center;">
-    <img src="img/img3.jpg" alt="Doctor 2" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+    <img src="img3.jpg" alt="Doctor 2" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
   </div>
 
   <div class="my-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s; display: flex; align-items: center; justify-content: center;">
-    <img src="img/img1.jpg" alt="Doctor 3" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+    <img src="img1.jpg" alt="Doctor 3" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
   </div>
 
 </div>
@@ -81,7 +81,7 @@
   </div>
 <div class="card-container">
   <div class="hover-card">
-    <img src="img/doctor.jpg" alt="Landscape">
+    <img src="doctor.jpg" alt="Landscape">
     <div class="card-overlay">
       <h3>Expert Consultations</h3>
       <p>Meet our team of world-class specialists dedicated to your health.</p>
@@ -90,7 +90,7 @@
   </div>
 
   <div class="hover-card">
-    <img src="img/mri machine.jpg" alt="Tech">
+    <img src="mri machine.jpg" alt="Tech">
     <div class="card-overlay">
       <h3>Advanced Diagnostics</h3>
       <p>Utilizing state-of-the-art imaging technology for precise results.</p>
@@ -99,7 +99,7 @@
   </div>
 
   <div class="hover-card">
-    <img src="img/ward.jpg" alt="Car">
+    <img src="ward.jpg" alt="Car">
     <div class="card-overlay">
       <h3>Patient Comfort</h3>
       <p>Experience recovery in our modern, serene, and fully equipped wards.</p>
@@ -108,7 +108,7 @@
   </div>
 
   <div class="hover-card">
-    <img src="img/xray.jpg" alt="City">
+    <img src="xray.jpg" alt="City">
     <div class="card-overlay">
       <h3>Radiology Services</h3>
       <p>Fast and accurate digital imaging to support your treatment plan.</p>
