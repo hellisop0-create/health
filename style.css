@@ -733,10 +733,3 @@ blockquote {
 }
 
 /*radio hero  */
-.hero-img {
-    width: 100%;
-    max-width: 800px; /* Limits the size so it doesn't get too huge */
-    height: auto;
-    border-radius: 15px;
-    margin-bottom: 20px;
-}
